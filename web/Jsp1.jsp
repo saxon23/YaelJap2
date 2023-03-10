@@ -15,6 +15,7 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <div>
         <%
             int x = (int) ((Math.random() * 100));
             if (x < 50) {
@@ -28,5 +29,66 @@
             }
         %>
         <h1><%= "El numero es " + x%></h1>
+        </div>
+         <div>
+        <%
+            int y = (int) ((Math.random() * 100));
+            if (y < 50) {
+        %>
+        <h1>Es menor a 50</h1>
+        <%
+        } else {
+        %>
+        <h1 class="display-1">Es mayor o igual a 50 </h1>
+        <%
+            }
+        %>
+        <h1><%= "El numero es " + x%></h1>
+        </div>
+         <div>
+        <%
+            int z = (int) ((Math.random() * 100));
+            if (z < 50) {
+        %>
+        <h1>Es menor a 50</h1>
+        <%
+        } else {
+        %>
+        <h1 class="display-1">Es mayor o igual a 50 </h1>
+        <%
+            }
+        %>
+        <h1><%= "El numero es " + x%></h1>
+        </div>
+         <div>
+        <%
+            int a = (int) ((Math.random() * 100));
+            if (a < 50) {
+        %>
+        <h1>Es menor a 50</h1>
+        <%
+        } else {
+        %>
+        <h1 class="display-1">Es mayor o igual a 50 </h1>
+        <%
+            }
+        %>
+        <h1><%= "El numero es " + x%></h1>
+        </div>
+         <div>
+        <%
+            int b = (int) ((Math.random() * 100));
+            if (b < 50) {
+        %>
+        <h1>Es menor a 50</h1>
+        <%
+        } else {
+        %>
+        <h1 class="display-1">Es mayor o igual a 50 </h1>
+        <%
+            }
+        %>
+        <h1><%= "El numero es " + x%></h1>
+        </div>
     </body>
 </html>
